@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    overflow: hidden;
+}
+
+h1 {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20vh;
+    margin: 0;
+    z-index: -1;
+
+}
+
+body {
+    background-image: linear-gradient(to right, #445351, #a1b1a1, #9DC88D);
+    width:100vw;
+    height:100vh;
+    position: relative;
+}
+
+input {
+    width: 5vw;
+    height: 5vh;
+    border-radius: 20px;
+    font-family: 'Kanit', sans-serif;
+    background-color: transparent;
+    border-color: #e7bd60;
+    box-sizing: border-box;
+    border-style: solid;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+input[type="submit"].register:hover {
+    background-color: #e7bd60;
+    cursor: pointer;
+}
+
+.log-in-home {
+    font-family: 'Kanit', sans-serif;
+    color: #d7ebc6;
+}
+
+.log-in-home a {
+    color: #43604d;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.log-in-home a:hover {
+    color: #ffffff;
+}
+
+.welcome-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: bottom;
+    width: auto;
+    height: 100%;
+    flex-direction: column;
+}
+
+.spendify {
+    opacity: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 80vh;
+    padding: 0;
+    margin: 0;
+}
