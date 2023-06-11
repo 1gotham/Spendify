@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
 h1 {
     font-size: 20vh;
 }
@@ -49,6 +55,53 @@ h1 {
     color: whitesmoke;
  }
 
- .submit:hover {
+.submit:hover {
+background-color: #e7bd60;
+}
+
+.message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
     background-color: #e7bd60;
- }
+    color: whitesmoke;
+    margin: 10px;
+}
+
+p {
+    margin: 10px 15px 10px 15px;
+}
+
+.account-check {
+    font-family: 'Kanit', sans-serif;
+}
+
+.account-check a{
+    text-decoration: none;
+    color: #e7bd60;
+    transition: 0.5s;
+}
+
+.account-check a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.login-input {
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    box-shadow: none;
+}
+
+.login-input:focus {
+    text-decoration: none;
+    background-color: #e7bd60;
+    border: 2px solid;
+    outline: none;
+    box-shadow: none;
+}

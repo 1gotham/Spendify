@@ -22,7 +22,7 @@ class CreateUserForm(UserCreationForm):
             'id':'email',
             'class':'form-input',
             'placeholder':'EMAIL',
-            'maxlength':'16',
+            'maxlength':'30',
             'minlength':'3',
         })
         self.fields["password1"].widget.attrs.update({

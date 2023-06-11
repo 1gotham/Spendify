@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    overflow: hidden;
+    font-family: 'Kanit', sans-serif;
+}
 
 h1 a {
     color: rgb(255, 255, 255);
@@ -14,6 +20,9 @@ a {
 
 body {
     background-image: linear-gradient(to right, #164A41, #4D774E, #9DC88D);
+    width:100vw;
+    height:100vh;
+    position: relative;
 }
 
 .navbar {
@@ -23,6 +32,22 @@ body {
 .welcome {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome span a{
+    text-decoration: none;
+    color: #e7bd60;
+    transition: 0.5s;
+}
+
+.welcome span a:hover{
+    color: #fffefc;
+}
+
+.welcome span {
+    font-size: 2.5vh;
 }
 
 .test {
@@ -36,3 +61,24 @@ body {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 5vh;
 }
+
+h1.spendify{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    z-index: -1;
+}
+
+.spendify {
+    opacity: 1%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 80vh;
+    padding: 0;
+    margin: 0;
+}
+

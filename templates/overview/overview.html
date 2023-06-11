@@ -13,10 +13,14 @@
 </head>
 
 <body>
-    {% include "navbar.html" with name="Test" %}
+    <h1 class="spendify">spendify</h1>
+    {% include "navbar.html" %}
     <div class="welcome">
         <h1><a href="">overview</a></h1>
-
+        <span style="color: white">Hello, {{ user.username }} </span>
+        <span>
+            <a href="{% url 'logout' %}">Logout</a>
+        </span>
     </div>
 
 </body>

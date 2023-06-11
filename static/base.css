@@ -5,7 +5,7 @@
     overflow: hidden;
 }
 
-h1 {
+h1.spendify{
     color: whitesmoke;
     text-transform: uppercase;
     font-weight: 900;
