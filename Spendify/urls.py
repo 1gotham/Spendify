@@ -23,5 +23,6 @@ urlpatterns = [
     path('', include('homepage.urls')),
     path('', include('overview.urls')),
     path('', include('members.urls')),
+    path('', include("django_event_cal.urls")),
     path('admin/', admin.site.urls),
 ]

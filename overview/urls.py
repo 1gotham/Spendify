@@ -2,5 +2,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('overview/', views.overview, name='overview')
+    path('overview/<int:year>/<str:month>/', views.overview, name='index')
 ]
